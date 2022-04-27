@@ -155,3 +155,36 @@ button[disabled=disabled], button:disabled {
 	opacity: 0;
 	transition: .5s;
 }
+
+.filtra-tabela{
+	width: 300px;
+	margin-bottom: 10px;
+	display: flex;
+	flex-direction: row;
+	float: right;
+}
+
+.filtra-tabela input{
+	width: 70%;
+}
+
+.filtra-tabela label{
+	width: 50%;
+	font-weight: bold;
+	margin-top: 3px;
+}
+
+.invisivel{
+	display: none;
+}
+
+.botao-buscar{
+	display: flex;
+}
+
+#erro-ajax{
+	color: red;
+	font-size: 1.2em;
+	margin-top: 30px;
+	margin-left: 20px;
+}
